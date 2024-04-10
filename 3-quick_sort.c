@@ -10,7 +10,7 @@
  */
 void quick_sort(int *array, size_t size)
 {
-	_qsort(array, 0, size - 1, size);
+	qsort(array, 0, size - 1, size);
 }
 /**
  * _qsort - auxiliar function for the
